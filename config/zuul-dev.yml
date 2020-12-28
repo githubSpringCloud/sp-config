@@ -1,11 +1,11 @@
 spring:
   application:
     name: zuul
-server:
-  port: 3001
   cloud:
     config:
       override-none: true
+server:
+  port: 3001
   rabbitmq:
     host: 192.168.142.168
     port: 5672
